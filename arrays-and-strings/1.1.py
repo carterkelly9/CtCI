@@ -11,15 +11,15 @@ def check_unique(some_string):
 
     return True
 
-# test
 assert(check_unique("hello") == False)
 assert(check_unique("world") == True)
 
+print("Test brute-force algorithm:")
 print("hello - " + str(check_unique("hello")))
 print("world - " + str(check_unique("world")))
 
 # pre-sort string - O(nlogn)
-def check_unique2 (some_string):
+def check_unique2(some_string):
     sorted_string = sorted(some_string) # some nlogn sort
 
     for i in range(0, len(sorted_string) - 1):
@@ -31,6 +31,7 @@ def check_unique2 (some_string):
 assert(check_unique2("hello") == False)
 assert(check_unique2("world") == True)
 
+print("Test pre-sorted string algorithm:")
 print("hello - " + str(check_unique2("hello")))
 print("world - " + str(check_unique2("world")))
 
