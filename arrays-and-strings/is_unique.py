@@ -22,10 +22,10 @@ def is_unique2(str):
     if (len(str) > 128): # max number of unique characters
         return False
 
-    sorted_str = sorted(str) # some nlogn sort
+    str_sorted = sorted(str) # some nlogn sort
 
-    for i in range(len(sorted_str) - 1):
-        if sorted_str[i] == sorted_str[i + 1]:
+    for i in range(len(str_sorted) - 1):
+        if str_sorted[i] == str_sorted[i + 1]:
             return False
 
     return True
