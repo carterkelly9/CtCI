@@ -41,3 +41,12 @@ Faster and more efficient than manual concatenations.
 **ASCII**: 128 characters as 7-bit integers  
 **Extended ASCII**: 256 characters as 8-bit integers  
 **Unicode**: 100,000+ characters, bits depend on encoding format (UTF-8, UTF-16, UCS-2, etc.)
+
+### Other Things
+
+- Case sensitivity
+- Whitespace
+
+## Tips
+
+- Pre-sorting
