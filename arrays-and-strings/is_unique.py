@@ -40,7 +40,7 @@ def is_unique3(str):
 
     ascii_dict = {chr(i): False for i in range(129)}
 
-    for i in range (0, len(str) - 1):
+    for i in range(len(str) - 1):
         if ascii_dict[str[i]]:
             return False
         ascii_dict[str[i]] = True
