@@ -40,4 +40,4 @@ Faster and more efficient than manual concatenations.
 
 _ASCII_: 128 characters as 7-bit integers  
 _Extended ASCII_: 256 characters as 8-bit integers  
-_
+_Unicode_: 100,000+ characters, bits depend on encoding format (UTF-8, UTF16, UCS-2, etc.)
