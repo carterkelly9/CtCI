@@ -49,4 +49,6 @@ Faster and more efficient than manual concatenations.
 
 ## Tips
 
-- Pre-sorting
+- Using additional data structures
+- Pre-sorting -- creates minimum of O(nlogn)
+- Iterating forwards and backwards
