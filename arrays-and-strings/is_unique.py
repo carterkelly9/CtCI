@@ -17,7 +17,7 @@ def is_unique(str):
 assert(is_unique("hello") == False)
 assert(is_unique("world") == True)
 
-# pre-sort string - O(nlogn), O(1) or more space
+# pre-sort string - O(nlogn) time, O(1) or more space
 def is_unique2(str):
     if (len(str) > 128): # max number of unique characters
         return False

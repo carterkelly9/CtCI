@@ -1,7 +1,7 @@
 # 1.2
 # Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
 
-# pre-sort string - O(nlogn), O(1) or more space
+# pre-sort string - O(nlogn) time, O(1) or more space
 def check_permutation(str1, str2):
     if (len(str1) != len(str2)):  # permutations must have an equal number of characters
         return False
@@ -18,7 +18,7 @@ assert(check_permutation("hello", "hollow") == False)
 assert(check_permutation("hello", "world") == False)
 assert(check_permutation("silent", "listen") == True)
 
-# efficient algorithm - O(n), O(1) space
+# efficient algorithm - O(n) time, O(1) space
 def check_permutation2(str1, str2):
     if (len(str1) != len(str2)):  # permutations must have an equal number of characters
         return False
