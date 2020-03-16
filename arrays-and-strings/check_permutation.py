@@ -23,15 +23,15 @@ def check_permutation2(str1, str2):
     if (len(str1) != len(str2)):  # permutations must have an equal number of characters
         return False
     
-    str1_dict = {i: 0 for i in str1}
+    ascii_dict = {chr(i): 0 for i in range(129)}
     
     for i in str1:
-        str1_dict[i] += 1
+        ascii_dict[i] += 1
     
     for i in str2:
-        if i in str1_dict.keys():
-            str1_dict[i] -= 1
-            if (str1_dict[i] < 0):
+        if i in ascii_dict.keys():
+            ascii_dict[i] -= 1
+            if (ascii_dict[i] < 0):
                 return False
         else:
             return False
