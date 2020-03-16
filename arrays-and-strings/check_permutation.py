@@ -18,7 +18,7 @@ assert(check_permutation("hello", "hollow") == False)
 assert(check_permutation("hello", "world") == False)
 assert(check_permutation("silent", "listen") == True)
 
-# efficient algorithm - O(n) time, O(1) space
+# using an additional data structure - O(n) time, O(1) space
 def check_permutation2(str1, str2):
     if (len(str1) != len(str2)):  # permutations must have an equal number of characters
         return False
