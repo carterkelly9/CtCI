@@ -7,15 +7,15 @@
 def URLify(input_str, n):
     url_string = ""
 
-    for char in input_str:
-        if (char == ' '):
+    for i in range(n):
+        if (input_str[i] == ' '):
             url_string += "%20"
         else:
-            url_string += char
+            url_string += input_str[i]
 
     return url_string
 
-assert(URLify("Mr John Smith", 13) == "Mr%20John%20Smith")
+assert(URLify("Mr John Smith    ", 13) == "Mr%20John%20Smith")
 
 # in-place - O(n) time, O(1) space
 def URLify2(input_str, n):
