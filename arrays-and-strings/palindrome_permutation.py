@@ -15,7 +15,7 @@ def palindrome_permutation(input_str):
 
     for i in ascii_dict.keys():
         if (ascii_dict[i] % 2 == 1):
-            if (one_odd == True):
+            if (one_odd):
                 return False
             one_odd = True
     
