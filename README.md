@@ -1,6 +1,8 @@
 # CtCI
 
-Cracking the Coding Interview notes, solutions, etc.
+Cracking the Coding Interview notes, solutions, etc.  
+All of the solutions thus far are implemented in Python.
+The hope is to also have C++ implementations in the future (and possibly JavaScript, Java, ...).
 
 ## Contents
 
@@ -11,3 +13,4 @@ Cracking the Coding Interview notes, solutions, etc.
 3. [URLify](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/URLify.py)
 4. [Palindrome Permutation](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/palindrome_permutation.py)
 5. [One Away](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/one_away.py)
+6. [String Compression](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/string_compression.py)
