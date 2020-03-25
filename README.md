@@ -1,7 +1,7 @@
 # CtCI
 
 Cracking the Coding Interview notes, solutions, etc.  
-All of the solutions thus far are implemented in Python.
+All of the solutions thus far are implemented in Python.  
 The hope is to also have C++ implementations in the future (and possibly JavaScript, Java, ...).
 
 ## Contents
