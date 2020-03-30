@@ -14,3 +14,4 @@ The hope is to also have C++ implementations in the future (and possibly JavaScr
 4. [Palindrome Permutation](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/palindrome_permutation.py)
 5. [One Away](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/one_away.py)
 6. [String Compression](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/string_compression.py)
+7. [Rotate Matrix](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/rotate_matrix.py)
