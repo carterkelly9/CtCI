@@ -17,3 +17,5 @@ The hope is to also have C++ implementations in the future (and possibly other l
 7. [Rotate Matrix](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/rotate_matrix.py)
 8. [Zero Matrix](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/zero_matrix.py)
 9. [String Rotation](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/string_rotation.py)
+
+### [Linked Lists](https://github.com/carterkelly9/CtCI/tree/master/linked-lists)
