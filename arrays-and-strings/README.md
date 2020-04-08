@@ -10,6 +10,7 @@
 6. [String Compression](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/string_compression.py)
 7. [Rotate Matrix](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/rotate_matrix.py)
 8. [Zero Matrix](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/zero_matrix.py)
+9. [String Rotation](https://github.com/carterkelly9/CtCI/blob/master/arrays-and-strings/string_rotation.py)
 
 ## Review
 
